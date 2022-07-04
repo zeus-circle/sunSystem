@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>太阳系数据表格</title>
+    <link rel="stylesheet" href="Decoration.css">
+    <style>
+        body{
+            text-align: center;
+        }
+        .single{
+            background-color: #f5f5f5;
+        }
+        .double{
+            background-color: #fafafa;
+        }
+        .style{
+            border-right-color:#000 ;
+            border-left-color:#000 ;
+        }
+    </style>
+</head>
+<body>
+<h4>太阳系中行星的一些数据。（资料取自<a href>NASA行星数据-公制、</a>图片取自<a href>NASA照片库。</a>)</h4>
+<table border="1" cellspacing="0" cellpadding="10" align="center" style="border-width: 3px" >
+    <tr>
+        <th colspan="2" class="single">  </th>
+        <th class="style" style="border-top-color: black">名字</th>
+        <th>图片</th>
+        <th>质量（10<sup>24</sup>kg) </th>
+        <th>直径(km)</th>
+        <th>密度(kg/m<sup>3</sup>)</th>
+        <th>重力(m/s<sup>2</sup>)</th>
+        <th>天长(小时)</th>
+        <th>与太阳距离(10<sup>6</sup>km)</th>
+        <th>平均温度(&#8451;)</th>
+        <th>卫星颗数</th>
+        <th>备注</th>
+    </tr>
+    <tr>
+        <th rowspan="4" colspan="2">类地行星</th>
+        <th class="style">水星</th>
+        <td class="single"><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345438/image-preview"
+                 alt="image.png"></td>
+        <td class="single">0.330</td>
+        <td class="single">4,879</td>
+        <td class="single">5427</td>
+        <td class="single">3.7</td>
+        <td class="single">4222.6</td>
+        <td class="single">57.9</td>
+        <td class="single">167</td>
+        <td class="single">0</td>
+        <td class="single">距太阳最近</td>
+    </tr>
+    <tr>
+        <th class="style">金星</th>
+        <td class="double"><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345439/image-preview"
+                 alt="image.png"></td>
+        <td class="double">4.87</td>
+        <td class="double">12,104</td>
+        <td class="double">5243</td>
+        <td class="double">8.9</td>
+        <td class="double">2802.0</td>
+        <td class="double">108.2</td>
+        <td class="double">464</td>
+        <td class="double">0</td>
+        <td class="double"> </td>
+    </tr>
+    <tr>
+        <th class="style">地球</th>
+        <td class="single"><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345441/image-preview"
+                 alt="image.png"></td>
+        <td class="single">5.97</td>
+        <td class="single">12,756</td>
+        <td class="single">5514</td>
+        <td class="single">9.8</td>
+        <td class="single">24.0</td>
+        <td class="single">149.6</td>
+        <td class="single">15</td>
+        <td class="single">1</td>
+        <td class="single">我们的世界</td>
+    </tr>
+    <tr>
+        <th class="style">火星</th>
+        <td><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345446/image-preview"
+                 alt="image.png"></td>
+        <td class="double">0.642</td>
+        <td class="double">6,792</td>
+        <td class="double">3933</td>
+        <td class="double">3.7</td>
+        <td class="double">24.7</td>
+        <td class="double">227.9</td>
+        <td class="double">-65</td>
+        <td class="double">2</td>
+        <td class="double">红色星球</td>
+    </tr>
+    <tr>
+        <th rowspan="4">类木行星</th>
+        <th rowspan="2">气巨星</th>
+        <th class="style">木星</th>
+        <td class="single"><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345443/image-preview"
+                 alt="image.png"></td>
+        <td class="single">1898</td>
+        <td class="single">142,984</td>
+        <td class="single">1326</td>
+        <td class="single">23.1</td>
+        <td class="single">9.9</td>
+        <td class="single">778.6</td>
+        <td class="single">-110</td>
+        <td class="single">67</td>
+        <td class="single">太阳系最大</td>
+    </tr>
+    <tr>
+        <th class="style">土星</th>
+        <td><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345444/image-preview"
+                 alt="image.png"></td>
+        <td class="double">568</td>
+        <td class="double">120,536</td>
+        <td class="double">687</td>
+        <td class="double">9.0</td>
+        <td class="double">10.7</td>
+        <td class="double">1433.5</td>
+        <td class="double">-140</td>
+        <td class="double">62</td>
+        <td class="double"> </td>
+    </tr>
+    <tr>
+        <th rowspan="2">冰巨星</th>
+        <th class="style">天王星</th>
+        <td class="single"><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345447/image-preview"
+                 alt="image.png"></td>
+        <td class="single">86.8</td>
+        <td class="single">51,118</td>
+        <td class="single">1271</td>
+        <td class="single">8.7</td>
+        <td class="single">17.2</td>
+        <td class="single">2872.5</td>
+        <td class="single">-195</td>
+        <td class="single">27</td>
+        <td class="single"> </td>
+    </tr>
+    <tr>
+        <th class="style">海王星</th>
+        <td class="double"><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345448/image-preview"
+                 alt="image.png"></td>
+        <td class="double">102</td>
+        <td class="double">49,528</td>
+        <td class="double">1638</td>
+        <td class="double">11.0</td>
+        <td class="double">16.1</td>
+        <td class="double">4495.1</td>
+        <td class="double">-200</td>
+        <td class="double">14</td>
+        <td class="double"> </td>
+    </tr>
+    <tr>
+        <th colspan="2">矮行星</th>
+        <th class="style" style="border-bottom-color:black ">冥王星</th>
+        <td class="single"><img src="https://api.apifox.cn/api/v1/projects/1144146/resources/345449/image-preview"
+                 alt="image.png"></td>
+        <td class="single">0.0146</td>
+        <td class="single">2,370</td>
+        <td class="single">2095</td>
+        <td class="single">0.7</td>
+        <td class="single">153.3</td>
+        <td class="single">5906.4</td>
+        <td class="single">-225</td>
+        <td class="single">5</td>
+        <td class="single">2006年降格，但<a href>尚存争议</a></td>
+    </tr>
+</table>
+</body>
+</html>
+
+
+th{
+    background-color: #ebebeb;
+    border-width: 2px;
+
+}
+td{
+    border-width: 2px;
+}
+tr{
+    border-color: #ececec;
+}
